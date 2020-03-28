@@ -4,8 +4,8 @@
 
 ## Requirements
 
-This package generates bindings using [`rust-bindgen`](https://github.com/rust-lang/rust-bindgen) at build time. It needs, as a result, the
-appropriate development libraries installed.
+This package generates bindings using [`rust-bindgen`](https://github.com/rust-lang/rust-bindgen) at
+build time. It needs, as a result, the appropriate development libraries installed.
 
 For Debian based systems, execute the following:
 
@@ -13,7 +13,8 @@ For Debian based systems, execute the following:
 apt install bluetooth bluez libbluetooth-dev libudev-dev
 ```
 
-**See also [`rust-bindgen`'s requirements](https://github.com/rust-lang/rust-bindgen/blob/master/book/src/requirements.md).
+**See also `rust-bindgen`'s own
+[requirements](https://github.com/rust-lang/rust-bindgen/blob/master/book/src/requirements.md).**
 
 ## Notes
 
