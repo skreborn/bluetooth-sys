@@ -1,8 +1,15 @@
 [package]
+version = "0.1.1"
 name = "bluetooth-sys"
-version = "0.1.0"
+description = "Unsafe bindings to Linux's C bluetooth API"
+readme = "README.md"
+repository = "https://github.com/skreborn/bluetooth-sys/"
+license = "MIT"
+keywords = [ "bluetooth", "hci" ]
+categories = [ "external-ffi-bindings", "network-programming", "os::unix-apis" ]
 authors = [ "Levente Morva <levente.morva@navcenter.hu>" ]
 edition = "2018"
+links = "bluetooth"
 
 [build-dependencies]
 bindgen = "0.53.2"
