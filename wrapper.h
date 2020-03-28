@@ -1,0 +1,11 @@
+#include <bluetooth/bluetooth.h>
+#include <bluetooth/bnep.h>
+#include <bluetooth/cmtp.h>
+#include <bluetooth/hci.h>
+#include <bluetooth/hci_lib.h>
+#include <bluetooth/hidp.h>
+#include <bluetooth/l2cap.h>
+#include <bluetooth/rfcomm.h>
+#include <bluetooth/sco.h>
+#include <bluetooth/sdp.h>
+#include <bluetooth/sdp_lib.h>

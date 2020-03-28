@@ -1,0 +1,8 @@
+[package]
+name = "bluetooth-sys"
+version = "0.1.0"
+authors = [ "Levente Morva <levente.morva@navcenter.hu>" ]
+edition = "2018"
+
+[build-dependencies]
+bindgen = "0.53.2"
