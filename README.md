@@ -10,7 +10,7 @@ build time. It needs, as a result, the appropriate development libraries install
 For Debian based systems, execute the following:
 
 ```sh
-apt install bluetooth bluez libbluetooth-dev libudev-dev
+apt install bluetooth libbluetooth-dev libudev-dev
 ```
 
 **See also `rust-bindgen`'s own
