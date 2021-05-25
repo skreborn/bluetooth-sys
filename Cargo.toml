@@ -1,5 +1,5 @@
 [package]
-version = "0.1.1"
+version = "0.1.2"
 name = "bluetooth-sys"
 description = "Unsafe bindings to Linux's C bluetooth API"
 readme = "README.md"
@@ -12,4 +12,4 @@ edition = "2018"
 links = "bluetooth"
 
 [build-dependencies]
-bindgen = "0.53.2"
+bindgen = "0.58"
