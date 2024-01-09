@@ -1,5 +1,5 @@
 [package]
-version = "0.1.2"
+version = "0.1.3"
 name = "bluetooth-sys"
 description = "Unsafe bindings to Linux's C bluetooth API"
 readme = "README.md"
