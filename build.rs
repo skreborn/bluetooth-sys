@@ -1,5 +1,3 @@
-use bindgen;
-
 use std::{env, path::PathBuf};
 
 fn main() {
@@ -8,7 +6,7 @@ fn main() {
 
   bindgen::Builder::default()
     .header("wrapper.h")
-    .parse_callbacks(Box::new(bindgen::CargoCallbacks))
+    .parse_callbacks(Box::new(bindgen::CargoCallbacks::new()))
     .generate()
     .expect("Failed to generate bindings.")
     .write_to_file(PathBuf::from(env::var("OUT_DIR").unwrap()).join("bindings.rs"))

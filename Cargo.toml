@@ -12,4 +12,4 @@ edition = "2018"
 links = "bluetooth"
 
 [build-dependencies]
-bindgen = "0.58"
+bindgen = "0.69"
